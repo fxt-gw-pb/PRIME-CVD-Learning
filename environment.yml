@@ -1,0 +1,23 @@
+# PRIME-CVD 学习项目的 Python 环境（推荐）
+# 创建：conda env create -f environment.yml
+# 激活：conda activate prime-cvd
+# 注册 Jupyter 内核（一次）：python -m ipykernel install --user --name prime-cvd --display-name "Python (prime-cvd)"
+# 实测版本见 requirements-lock-tested.txt
+name: prime-cvd
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy            # 数值计算
+  - pandas           # 表格数据
+  - scipy            # 统计检验、优化
+  - matplotlib       # 画图（风格由 primecvd/pubplot.py 统一）
+  - lifelines        # 精讲篇：KM、Cox
+  - statsmodels      # 工程篇：Cox 部分似然、线性 / Logistic 回归
+  - scikit-learn     # 交叉验证、分类指标
+  - requests         # 下载官方数据
+  - jupyterlab       # 运行笔记本
+  - ipykernel        # 让 VS Code / Jupyter 识别这个环境
+  - nbformat         # 批量执行笔记本
+  - nbclient
+  - pytest           # 自动化测试

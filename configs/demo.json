@@ -1,0 +1,29 @@
+{
+  "mode": "demo",
+  "seed": 3407,
+  "train_fraction": 0.7,
+  "valid_fraction": 0.15,
+  "horizon_years": 5.0,
+  "cv_folds": 3,
+  "ridge_alphas": [
+    0.0,
+    0.001,
+    0.01
+  ],
+  "calibration_bins": 5,
+  "min_censor_survival": 0.05,
+  "features": [
+    "Age",
+    "BMI",
+    "HbA1c",
+    "eGFR",
+    "SBP",
+    "diabetes",
+    "CKD",
+    "AF",
+    "IRSD_quintile",
+    "smoking_status"
+  ],
+  "description": "基线五年CVD风险教学；完整Asset1；按患者固定划分；测试集显式解锁。",
+  "output_dir": "outputs/demo"
+}

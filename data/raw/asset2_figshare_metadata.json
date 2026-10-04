@@ -1,0 +1,129 @@
+{
+  "url_public_html": "https://figshare.com/articles/dataset/PRIME-CVD_Data_Asset_2_Relational_EMR-Style_Cardiovascular_Dataset_for_Medical_Informatics_Education/31403028/1",
+  "files": [
+    {
+      "id": 62130498,
+      "name": "Data002_PatientEMR_Zipped.zip",
+      "size": 4572818,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/62130498",
+      "supplied_md5": "5d736b75f956eaa1f0c9b53ac79bebd5",
+      "computed_md5": "5d736b75f956eaa1f0c9b53ac79bebd5",
+      "mimetype": "application/zip"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 12369910,
+      "full_name": "Nicholas Kuo",
+      "first_name": "Nicholas",
+      "last_name": "Kuo",
+      "is_active": true,
+      "url_name": "Nicholas_Kuo",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/PRIME-CVD_Data_Asset_2_Relational_EMR-Style_Cardiovascular_Dataset_for_Medical_Informatics_Education/31403028",
+  "download_disabled": false,
+  "description": "<h2 dir=\"ltr\">Overview</h2><p dir=\"ltr\">PRIME-CVD Data Asset 2 is an EMR-style relational dataset derived deterministically from <a href=\"https://figshare.com/articles/dataset/PRIME-CVD_Data_Asset_1_DAG-Simulated_Cardiovascular_Risk_Cohort_for_Medical_Informatics_Education/31395765?file=62102364\" rel=\"noreferrer\" target=\"_blank\">PRIME-CVD Data Asset 1</a> [1]. It represents a cohort of 50,000 simulated adults undergoing primary prevention for cardiovascular disease (CVD), but restructures the clean cohort into a multi-table patient database designed to mimic the structural and lexical messiness of real general-practice EMR systems.</p><p dir=\"ltr\">Rather than providing a single tidy modelling table, Data Asset 2 forces realistic workflows: linkage, harmonisation, unit handling, and cohort reconstruction — exactly the stuff learners need before they touch governed clinical datasets.</p><p dir=\"ltr\">This asset supports teaching and assessment in health data engineering, medical informatics, and applied epidemiology, without privacy or governance barriers.</p><h2 dir=\"ltr\">What’s in the ZIP</h2><p dir=\"ltr\">The zip contains three linked CSV tables (linked via <code>Patient_ID</code>):</p><ol><li><b>PatientMasterSummary.csv</b><br>One row per patient: demographics, socioeconomic status (IRSD), smoking status (with injected missingness), and coarsened CVD outcome timing.</li><li><b>PatientChronicDiseases.csv</b><br>One-to-many diagnosis records: diabetes, CKD, AF represented using heterogeneous free-text and code-like labels.</li><li><b>PatientMeasAndPath.csv</b><br>Long-form measurements (<i>e.g.,</i> BMI / SBP / eGFR / HbA1c) with variable naming inconsistency and mixed units.</li></ol><p dir=\"ltr\">Note: All three tables include an <code>Unnamed: 0</code> column (a benign saved index). Users can safely drop it.</p><h2 dir=\"ltr\">Security</h2><p dir=\"ltr\">All individuals are simulated entirely <i>de novo</i> using a fully parameterised DAG configured from publicly available epidemiologic summaries (<i>e.g.,</i> Australian Institute of Health and Welfare, Australian Bureau of Statistics, and peer-reviewed literature). No patient-level electronic medical record (EMR) data were used in model construction, and no machine learning generative models (<i>e.g.,</i> GANs, diffusion models, or large language models) were trained on real clinical data.</p><p dir=\"ltr\">Because the simulation is entirely mechanism-based rather than data-trained, there is no membership inference risk, no residual linkage risk, and no possibility of re-identification. None of the synthetic individuals correspond to real-world patients, and the dataset contains no direct identifiers, quasi-identifiers, or protected health information.</p><h2 dir=\"ltr\">Educational Focus</h2><p dir=\"ltr\">Data Asset 2 is designed to teach real-world EMR analytics, including:</p><ul><li>Relational data linkage using patient identifiers</li><li>Cohort reconstruction from multi-table EMR structure</li><li>Clinical label harmonisation</li><li>Handling missingness</li><li>Unit standardisation</li><li>Feature engineering from long-form measurement tables</li><li>Robust subgroup / equity-aware analysis by IRSD</li><li>End-to-end pipelines that resemble real primary-care workflows</li></ul><p dir=\"ltr\">This lets learners develop competence in realistic EMR workflows before transitioning to governed clinical data.</p><p dir=\"ltr\"><b>Reference</b><br>[A] Kuo NI-H (2026). PRIME-CVD Data Asset 1: DAG-Simulated Cardiovascular Risk Cohort for Medical Informatics Education. figshare. Dataset. https://doi.org/10.6084/m9.figshare.31395765.v1</p>",
+  "funding": null,
+  "funding_list": [],
+  "version": 1,
+  "status": "public",
+  "size": 4572818,
+  "created_date": "2026-02-24T22:34:53Z",
+  "modified_date": "2026-02-24T22:34:53Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "Synthetic Data",
+    "Cardiovascular Disease (CVD)",
+    "Risk Prediction Modelling",
+    "Survival Analysis",
+    "Electronic Medical Records (EMRs)",
+    "Causal Modelling",
+    "Directed Acyclic Graph (DAG)",
+    "Medical Informatics",
+    "Education",
+    "Primary Prevention",
+    "Epidemiology"
+  ],
+  "keywords": [
+    "Synthetic Data",
+    "Cardiovascular Disease (CVD)",
+    "Risk Prediction Modelling",
+    "Survival Analysis",
+    "Electronic Medical Records (EMRs)",
+    "Causal Modelling",
+    "Directed Acyclic Graph (DAG)",
+    "Medical Informatics",
+    "Education",
+    "Primary Prevention",
+    "Epidemiology"
+  ],
+  "categories": [
+    {
+      "id": 27055,
+      "title": "Epidemiological modelling",
+      "parent_id": 27040,
+      "path": "/27001/27040/27055",
+      "source_id": "420205",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 27088,
+      "title": "General practice",
+      "parent_id": 27076,
+      "path": "/27001/27076/27088",
+      "source_id": "420304",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 26107,
+      "title": "Science, technology and engineering curriculum and pedagogy",
+      "parent_id": 26068,
+      "path": "/26065/26068/26107",
+      "source_id": "390113",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Kuo, Nicholas (2026). PRIME-CVD Data Asset 2: Relational EMR-Style Cardiovascular Dataset for Medical Informatics Education. figshare. Dataset. https://doi.org/10.6084/m9.figshare.31403028.v1",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 31403028,
+  "title": "PRIME-CVD Data Asset 2: Relational EMR-Style Cardiovascular Dataset for Medical Informatics Education",
+  "doi": "10.6084/m9.figshare.31403028.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/31403028",
+  "published_date": "2026-02-24T22:34:53Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/31403028",
+  "url_public_api": "https://api.figshare.com/v2/articles/31403028",
+  "url_private_html": "https://figshare.com/account/articles/31403028",
+  "timeline": {
+    "posted": "2026-02-24T22:34:53",
+    "firstOnline": "2026-02-24"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

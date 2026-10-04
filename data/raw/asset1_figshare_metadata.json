@@ -1,0 +1,129 @@
+{
+  "url_public_html": "https://figshare.com/articles/dataset/PRIME-CVD_Data_Asset_1_DAG-Simulated_Cardiovascular_Risk_Cohort_for_Medical_Informatics_Education/31395765/2",
+  "files": [
+    {
+      "id": 67453365,
+      "name": "Data001_ReadyForCoxPH_v2(2026-08-12).csv",
+      "size": 6150298,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/67453365",
+      "supplied_md5": "d378958d5dcfbbefdb7fe6d22c5bbbed",
+      "computed_md5": "d378958d5dcfbbefdb7fe6d22c5bbbed",
+      "mimetype": "text/csv"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 12369910,
+      "full_name": "Nicholas Kuo",
+      "first_name": "Nicholas",
+      "last_name": "Kuo",
+      "is_active": true,
+      "url_name": "Nicholas_Kuo",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/PRIME-CVD_Data_Asset_1_DAG-Simulated_Cardiovascular_Risk_Cohort_for_Medical_Informatics_Education/31395765",
+  "download_disabled": false,
+  "description": "<h3 dir=\"ltr\">Overview</h3><p dir=\"ltr\">PRIME-CVD Data Asset 1 is a directed acyclic graph (DAG)-simulated cohort of 50,000 synthetic individuals designed to reproduce realistic demographic structure, socioeconomic gradients, cardiometabolic risk factor distributions, and clinically plausible five-year cardiovascular disease (CVD) incidence consistent with contemporary Australian primary prevention populations [1]. The dataset encodes established epidemiologic relationships among age, socioeconomic disadvantage (IRSD), behavioural risk factors, chronic disease states, biomarkers, and time-to-event outcomes within a transparent, parametrically specified causal framework.</p><h3 dir=\"ltr\">Security</h3><p dir=\"ltr\">All individuals are simulated entirely <i>de novo</i> using a fully parameterised DAG configured from publicly available epidemiologic summaries (<i>e.g.,</i> Australian Institute of Health and Welfare, Australian Bureau of Statistics, and peer-reviewed literature). No patient-level electronic medical record (EMR) data were used in model construction, and no machine learning generative models (<i>e.g.,</i> GANs, diffusion models, or large language models) were trained on real clinical data.</p><p dir=\"ltr\">Because the simulation is entirely mechanism-based rather than data-trained, there is no membership inference risk, no residual linkage risk, and no possibility of re-identification. None of the synthetic individuals correspond to real-world patients, and the dataset contains no direct identifiers, quasi-identifiers, or protected health information.</p><h3 dir=\"ltr\">Educational Focus</h3><p dir=\"ltr\">Despite being fully simulated, the dataset preserves realistic subgroup imbalance and clinically meaningful risk gradients, enabling applied training in epidemiology, medical informatics, and health data science without governance barriers.</p><p dir=\"ltr\">PRIME-CVD Data Asset 1 is suitable for instruction in:</p><ul><li>Cox proportional hazards modelling (survival analysis in epidemiology)</li><li>Risk prediction model development and calibration assessment</li><li>Classification metrics (precision, recall, F1 score) for statistical interpretation</li><li>Dimensionality reduction techniques (e.g., t-SNE) for data visualisation</li><li>Demographic and socioeconomic stratification for health policy analysis</li><li>Fairness-aware modelling and subgroup performance evaluation</li></ul><p dir=\"ltr\">This environment allows learners to develop analytic workflows and methodological competence prior to working with governed clinical datasets.</p><p dir=\"ltr\"><b>Reference</b><br>[1] Kuo NI-H, et al. Estimating 5-year absolute risk of cardiovascular disease using routinely collected electronic medical records from Australian general practices. <i>Heart</i>. 2025.</p><p><br></p><h3 dir=\"ltr\">Synthetic Cohort Characteristics (N = 50,000)</h3><p dir=\"ltr\"><b>Age (years)</b><br>Mean (SD): 49.71 (12.37)<br>Median [IQR]: 49.63 [41.33, 58.09]<br>Range: 18.0–90.0</p><p dir=\"ltr\"><b>IRSD Quintile Distribution</b><br>Q1: 21.28% (Most disadvantaged)<br>Q2: 16.11%<br>Q3: 23.88%<br>Q4: 16.99%<br>Q5: 21.74% (Least disadvantaged)</p><p dir=\"ltr\"><b>Smoking Status</b><br>Non-smoker: 73.14%<br>Ex-smoker: 16.72%<br>Current smoker: 10.13%</p><p dir=\"ltr\"><b>Chronic Disease Prevalence</b><br>Diabetes mellitus: 7.43%<br>Chronic Kidney Disease (CKD): 0.680%<br>Atrial Fibrillation (AF): 0.720%</p><p dir=\"ltr\"><b>Body Mass Index (BMI, kg/m²)</b><br>Mean (SD): 28.33 (5.03)<br>Median [IQR]: 28.33 [24.92, 31.73]<br>Range: 15.0–52.76</p><p dir=\"ltr\"><b>Systolic Blood Pressure (SBP, mmHg)</b><br>Mean (SD): 123.31 (16.10)<br>Median [IQR]: 123.14 [112.39, 134.10]<br>Range: 55.85–187.79</p><p dir=\"ltr\"><b>Estimated Glomerular Filtration Rate (eGFR, mL/min/1.73m²)</b><br>Mean (SD): 82.77 (6.09)<br>Median [IQR]: 82.94 [79.22, 86.66]<br>Range: 37.00–104.65</p><p dir=\"ltr\"><b>Haemoglobin A1c (HbA1c, %)</b><br>Mean (SD): 4.79 (0.93)<br>Median [IQR]: 4.66 [4.24, 5.12]<br>Range: 2.23–12.71</p><p dir=\"ltr\"><b>Cardiovascular Outcomes</b><br>Overall 5-year CVD event rate: 4.02%<br>Mean follow-up time: 4.80 years</p>",
+  "funding": null,
+  "funding_list": [],
+  "version": 2,
+  "status": "public",
+  "size": 6150298,
+  "created_date": "2026-08-12T07:04:27Z",
+  "modified_date": "2026-08-12T07:04:27Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "Synthetic Data",
+    "Cardiovascular Disease (CVD)",
+    "Risk Prediction Modelling",
+    "Survival Analysis",
+    "Electronic Medical Records (EMRs)",
+    "Causal Modelling",
+    "Directed Acyclic Graph (DAG)",
+    "Medical Informatics",
+    "Education",
+    "Primary Prevention",
+    "Epidemiology"
+  ],
+  "keywords": [
+    "Synthetic Data",
+    "Cardiovascular Disease (CVD)",
+    "Risk Prediction Modelling",
+    "Survival Analysis",
+    "Electronic Medical Records (EMRs)",
+    "Causal Modelling",
+    "Directed Acyclic Graph (DAG)",
+    "Medical Informatics",
+    "Education",
+    "Primary Prevention",
+    "Epidemiology"
+  ],
+  "categories": [
+    {
+      "id": 27055,
+      "title": "Epidemiological modelling",
+      "parent_id": 27040,
+      "path": "/27001/27040/27055",
+      "source_id": "420205",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 27088,
+      "title": "General practice",
+      "parent_id": 27076,
+      "path": "/27001/27076/27088",
+      "source_id": "420304",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 26107,
+      "title": "Science, technology and engineering curriculum and pedagogy",
+      "parent_id": 26068,
+      "path": "/26065/26068/26107",
+      "source_id": "390113",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Kuo, Nicholas (2026). PRIME-CVD Data Asset 1: DAG-Simulated Cardiovascular Risk Cohort for Medical Informatics Education. figshare. Dataset. https://doi.org/10.6084/m9.figshare.31395765.v2",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 31395765,
+  "title": "PRIME-CVD Data Asset 1: DAG-Simulated Cardiovascular Risk Cohort for Medical Informatics Education",
+  "doi": "10.6084/m9.figshare.31395765.v2",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/31395765",
+  "published_date": "2026-08-12T07:04:27Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/31395765",
+  "url_public_api": "https://api.figshare.com/v2/articles/31395765",
+  "url_private_html": "https://figshare.com/account/articles/31395765",
+  "timeline": {
+    "posted": "2026-08-12T07:04:27",
+    "firstOnline": "2026-02-23"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

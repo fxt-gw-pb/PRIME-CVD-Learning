@@ -1,0 +1,65 @@
+{
+  "checked_on": "2026-09-27",
+  "S1": {
+    "title": "Official PRIME-CVD repository and QuickStart",
+    "url": "https://github.com/NicKuo-ResearchStuff/PRIME_CVD",
+    "quickstart_url": "https://github.com/NicKuo-ResearchStuff/PRIME_CVD/blob/main/2026_02_25_PrimeCvd_QuickStart.ipynb",
+    "quickstart_blob_sha": "d923f6ca4ae0b6ccd366eaf0afc372841ab292f1",
+    "repository_tree_sha_observed": "565c7dee7697b16c33602d768ca08b7a2f3e177c"
+  },
+  "S2": {
+    "title": "PRIME-CVD: Paired Synthetic Cohort and Structured EMR-Style Data Assets for Education in Cardiovascular Risk Modelling (Scientific Data, published 2026-09-26)",
+    "published_article": "https://www.nature.com/articles/s41597-026-08352-3",
+    "preprint_with_code_appendices": "https://arxiv.org/html/2603.19299",
+    "doi": "10.1038/s41597-026-08352-3"
+  },
+  "S3": {
+    "title": "scikit-learn Common pitfalls",
+    "url": "https://scikit-learn.org/stable/common_pitfalls.html"
+  },
+  "S4": {
+    "title": "statsmodels PHReg",
+    "url": "https://www.statsmodels.org/stable/generated/statsmodels.duration.hazard_regression.PHReg.html"
+  },
+  "S5": {
+    "title": "statsmodels PHReg regularized objective",
+    "url": "https://www.statsmodels.org/stable/generated/statsmodels.duration.hazard_regression.PHReg.fit_regularized.html"
+  },
+  "S6": {
+    "title": "scikit-survival Evaluating Survival Models",
+    "url": "https://scikit-survival.readthedocs.io/en/stable/user_guide/evaluating-survival-models.html"
+  },
+  "official_files": [
+    {
+      "asset": "Asset1",
+      "article_id": 31395765,
+      "version": 2,
+      "file_id": 67453365,
+      "url": "https://ndownloader.figshare.com/files/67453365",
+      "doi": "10.6084/m9.figshare.31395765.v2",
+      "provider_filename": "Data001_ReadyForCoxPH_v2(2026-08-12).csv",
+      "provider_md5": "d378958d5dcfbbefdb7fe6d22c5bbbed",
+      "note": "Version 1 file 62102364 (Data001_ReadyForCoxPH.csv, linked by the early QuickStart) is not part of version 2.",
+      "downloaded_and_md5_verified_on": "2026-09-27"
+    },
+    {
+      "asset": "Asset2",
+      "article_id": 31403028,
+      "version": 1,
+      "file_id": 62130498,
+      "url": "https://ndownloader.figshare.com/files/62130498",
+      "doi": "10.6084/m9.figshare.31403028.v1",
+      "provider_filename": "Data002_PatientEMR_Zipped.zip",
+      "provider_md5": "5d736b75f956eaa1f0c9b53ac79bebd5",
+      "downloaded_and_md5_verified_on": "2026-09-27"
+    }
+  ],
+  "S7": {
+    "title": "Author derivation code for Data Asset 2 (term variants, unit conversions, ID mapping)",
+    "url": "https://github.com/NicKuo-ResearchStuff/PRIME_CVD/blob/main/Derivation_Codes/2026_08_12_DataAsset02_Derivation.ipynb"
+  },
+  "S8": {
+    "title": "Pocock SJ, Clayton TC, Altman DG. Survival plots of time-to-event outcomes in clinical trials: good practice and pitfalls. Lancet 2002;359:1686-89",
+    "doi": "10.1016/S0140-6736(02)08594-X"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "data_status": "INDEPENDENT_DEMO_NOT_OFFICIAL_PRIME_CVD",
+  "n": 5000,
+  "seed": 927,
+  "purpose": "仅用于工程测试与离线教学；不复制官方参数，不作为官方分析结果。",
+  "files": {
+    "Data002_PatientEMR_MasterSummary_RE.csv": "c3c2e6cf13d3031743c692b3109303cf8ca363a71894ce5560c52e7671d3c979",
+    "Data002_PatientEMR_MeasAndPath_RE.csv": "8d4fafef13db51194dc042a483358bdb2aa33be897f9255a4f23317add9aeda3",
+    "asset1.csv": "bca55b38ea759da2815efb651b5d8f6855ee4bf22f72471bfbda6e81f75dbaad",
+    "Data002_PatientEMR_ChronicDiseases_RE.csv": "f3b8ea42458417cfae2523439ce42089829c0f5dc646b91ccf017dec56e5fd77"
+  }
+}

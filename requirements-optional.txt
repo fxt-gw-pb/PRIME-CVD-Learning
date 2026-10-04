@@ -1,0 +1,2 @@
+# Optional independent cross-check only; not installed/tested in this build.
+scikit-survival>=0.25,<0.29

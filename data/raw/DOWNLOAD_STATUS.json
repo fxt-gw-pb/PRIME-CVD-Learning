@@ -1,0 +1,56 @@
+{
+  "status": "downloaded",
+  "data_status": "OFFICIAL_PINNED_FIGSHARE_FILES",
+  "downloaded_at_utc": "2026-09-27T14:52:07.381342+00:00",
+  "sources": {
+    "asset1": {
+      "file_id": 67453365,
+      "article_id": 31395765,
+      "version": 2,
+      "filename": "asset1.csv",
+      "doi": "10.6084/m9.figshare.31395765.v2",
+      "url": "https://ndownloader.figshare.com/files/67453365",
+      "resolved_url": "https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/67453365/Data001_ReadyForCoxPH_v220260812.csv",
+      "bytes": 6150298,
+      "sha256": "34ae149df24e8dfa66371def307bb6784652d8494b89c6d2bfe82cfa4184cdf8",
+      "md5": "d378958d5dcfbbefdb7fe6d22c5bbbed",
+      "failed_download_attempts": [],
+      "provider_md5": "d378958d5dcfbbefdb7fe6d22c5bbbed",
+      "provider_checksum_verified": true,
+      "provider_filename": "Data001_ReadyForCoxPH_v2(2026-08-12).csv",
+      "provider_license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    "asset2": {
+      "file_id": 62130498,
+      "article_id": 31403028,
+      "version": 1,
+      "filename": "asset2_original.zip",
+      "doi": "10.6084/m9.figshare.31403028.v1",
+      "url": "https://ndownloader.figshare.com/files/62130498",
+      "resolved_url": "https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/62130498/Data002_PatientEMR_Zipped.zip",
+      "bytes": 4572818,
+      "sha256": "6eee40de8bb31014656bf5089c9a39347b653d60eb202ca68a5d9ee9ff32af6a",
+      "md5": "5d736b75f956eaa1f0c9b53ac79bebd5",
+      "failed_download_attempts": [],
+      "provider_md5": "5d736b75f956eaa1f0c9b53ac79bebd5",
+      "provider_checksum_verified": true,
+      "provider_filename": "Data002_PatientEMR_Zipped.zip",
+      "provider_license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    }
+  },
+  "errors": [],
+  "extracted_sha256": {
+    "Data002_PatientEMR_ChronicDiseases_RE.csv": "009dab5b8ff54bc8664719db0f56413f7ea42e63d4df8109d7b65cbf90dcb0bc",
+    "Data002_PatientEMR_MasterSummary_RE.csv": "110d02131280e54edc04c4cc43a1df183fdeeb30a47489d558c83e11933c8086",
+    "Data002_PatientEMR_MeasAndPath_RE.csv": "424b4734b1a51d9a98d2348090bf0b14be0b10e0c8a229a2da2d095f23c66d0a"
+  },
+  "clean_rows": 50000
+}
